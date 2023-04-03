@@ -31,7 +31,7 @@ switch (jenis){
 		default :
 			biaya=0;
 	}
-}
+}};//tolong nanti ini dihapus ya(};)
 int main()
 {
     cout << "Hello world!" << endl;

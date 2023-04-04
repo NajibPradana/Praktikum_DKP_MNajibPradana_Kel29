@@ -69,3 +69,52 @@ int main()
     cout << "Hello world!" << endl;
     return 0;
 }
+
+void nota_pembayaran(bool nota){ 
+
+cout << "\n\n----------------------------" << endl; 
+
+cout << "__Nota Parkir Terlalu Lama__" << endl; 
+
+cout << "----------------------------" << endl; 
+
+cout << "Jenis Kendaraan : " << jenis<<endl; 
+
+cout << "Masuk Pada Pukul : " << jam_masuk<<endl; 
+
+cout << "Keluar Pada Pukul : " << jam_keluar<<endl; 
+
+cout << "Lama Waktu Parkir : " << sel_jam<<endl; 
+
+cout << "____________________________" << endl; 
+
+cout << "Tagihan : \nPokok : " << biaya << "\nTambahan : " << tambahan ; 
+
+cout << "\n____________________________" ; 
+
+} 
+
+	
+
+int main() 
+
+{ 
+    WaktuParkir A; 
+
+    A.jenis_kendaraan(); 
+
+    A.tarif_perkendaraan(); 
+
+    A.waktu_masuk(); 
+
+    A.waktu_keluar(); 
+
+    A.waktu_total(); 
+
+    A.nota_pembayaran(true); 
+
+    A.tarif_total(); 
+
+  
+
+} 
